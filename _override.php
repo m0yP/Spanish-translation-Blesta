@@ -1,14 +1,14 @@
 <?php
 /**
- * Español México personalizado por Pecmo
+ * Español México personalizado para Pecmo
  * https://www.pecmo.com.mx
  * Primero van los archivos ubicados en raíz: /portal/language
  * Línea 844 empiezan los plugins
  * Línea 847: client_cards
  * Línea 853: domains
  * Línea 886: order
- * Línea 1464: support_manager
- * test 
+ * Línea 1464: support_manager 
+ * 
  */
 
 
@@ -839,6 +839,42 @@ $lang['Users.!error.username.company'] = 'No estás autorizado a iniciar sesión
 $lang['Users.!error.clients.exist'] = 'El usuario no puede ser eliminado porque hay al menos un cliente asignado al usuario.';
 $lang['Users.!error.recovery_email.format'] = 'Dirección de correo electrónico de recuperación no válida.';
 
+// Components
+// components/invoice_templates/default_invoice/
+$lang['DefaultInvoice.name'] = 'Default';
+$lang['DefaultInvoice.page_of'] = 'Página %1$s de %2$s';
+$lang['DefaultInvoice.terms_heading'] = 'Términos';
+$lang['DefaultInvoice.type_active'] = 'ORDEN';
+$lang['DefaultInvoice.type_draft'] = 'ORDEN - BORRADOR';
+$lang['DefaultInvoice.type_void'] = 'ORDEN - CANCELADA';
+$lang['DefaultInvoice.type_proforma'] = 'ORDEN PRO FORMA';
+$lang['DefaultInvoice.type_quotation'] = 'PRESUPUESTO';
+$lang['DefaultInvoice.type_quotation_draft'] = 'PRESUPUESTO - BORRADOR';
+$lang['DefaultInvoice.invoice_id_code'] = 'Número de orden:';
+$lang['DefaultInvoice.proforma_id_code'] = 'Número Pro Forma:';
+$lang['DefaultInvoice.draft_id_code'] = 'Número de borrador:';
+$lang['DefaultInvoice.quotation_id_code'] = 'Número de presupuesto:';
+$lang['DefaultInvoice.client_id_code'] = 'Número de cliente:';
+$lang['DefaultInvoice.tax_id'] = 'RFC emisor:';
+$lang['DefaultInvoice.client_tax_id'] = 'RFC del cliente:';
+$lang['DefaultInvoice.date_created'] = 'Fecha de creación:';
+$lang['DefaultInvoice.date_billed'] = 'Fecha de la orden:';
+$lang['DefaultInvoice.date_expires'] = 'Fecha de vencimiento:';
+$lang['DefaultInvoice.date_due'] = 'Fecha límite de pago:';
+$lang['DefaultInvoice.notes_heading'] = 'Notas';
+$lang['DefaultInvoice.subtotal_heading'] = 'Subtotal';
+$lang['DefaultInvoice.total_heading'] = 'Total';
+$lang['DefaultInvoice.lines_description'] = 'Descripción';
+$lang['DefaultInvoice.lines_quantity'] = 'Cantidad';
+$lang['DefaultInvoice.lines_unit_price'] = 'Precio U';
+$lang['DefaultInvoice.lines_cost'] = 'Importe';
+$lang['DefaultInvoice.watermark_paid'] = 'PAGADA';
+$lang['DefaultInvoice.payments_heading'] = 'Pagos';
+$lang['DefaultInvoice.payments_applied_date'] = 'Fecha de solicitud';
+$lang['DefaultInvoice.payments_type_name'] = 'Tipo';
+$lang['DefaultInvoice.payments_transaction_id'] = 'Número de transacción';
+$lang['DefaultInvoice.payments_applied_amount'] = 'Importe aplicado';
+$lang['DefaultInvoice.balance_heading'] = 'Saldo';
 
 
 
@@ -1009,7 +1045,7 @@ $lang['OrderForms.!error.label.format'] = 'La etiqueta no se ajusta al formato r
 $lang['OrderForms.!error.template.supported'] = 'La plantilla seleccionada no admite ese tipo de orden.';
 $lang['OrderForms.!error.client_group_id.valid'] = 'Ese grupo de clientes no existe.';
 $lang['OrderForms.!error.require_tos.valid'] = 'Si requiere la aceptación de las condiciones del servicio, debe proporcionar una URL con las condiciones.';
-$lang['OrderForms.!error.order_form_id.exists'] = 'La orden de pedido no se puede eliminar porque hay pedidos pendientes para esa orden.';
+$lang['OrderForms.!error.order_form_id.exists'] = 'La orden no se puede eliminar porque hay pedidos pendientes..';
 $lang['OrderForms.!error.date_added.valid'] = 'La fecha añadida debe ser una fecha válida.';
 $lang['OrderForms.!error.visibility.valid'] = 'No se admite la visibilidad indicada.';
 $lang['OrderForms.!error.abandoned_cart_first.valid'] = 'Los días para el primer recordatorio deben ser un valor numérico.';
@@ -1383,7 +1419,7 @@ $lang['Domain.lookup.lookup_btn'] = 'Comprobar disponibilidad';
 $lang['Domain.lookup.other_btn'] = 'Omitir, ordenar otros';
 $lang['Domain.lookup.domains_header_available'] = 'Enhorabuena, ese dominio está disponible.';
 $lang['Domain.lookup.domains_header_unavailable'] = 'Lo sentimos, ese dominio no está disponible.';
-$lang['Domain.lookup.domains_header_free'] = 'El dominio puede ser gratuito cuando se combina con un paquete de cualquiera de los siguientes grupos de paquetes por un mínimo de %1$s: %2$s.';
+$lang['Domain.lookup.domains_header_free'] = 'El dominio puede ser gratis cuando se combina con un paquete de los siguientes grupos por un mínimo de %1$s: %2$s.';
 $lang['Domain.lookup.domains_domain_name'] = 'Nombre de dominio';
 $lang['Domain.lookup.domains_status'] = 'Estado';
 $lang['Domain.lookup.domains_term'] = 'Periodo';
@@ -1424,8 +1460,8 @@ $lang['Main.packages.text_free_domain'] = 'Selecciona un paquete en este grupo c
 $lang['Main.packages.select_note'] = 'Arrastra para seleccionar un paquete diferente.';
 $lang['Main.packages.price_start'] = 'A partir de';
 $lang['Main.packages.field_pricing_id'] = 'Elige tu ciclo de facturación.';
-$lang['Main.packages.box_select'] = 'Selecciona';
-$lang['Main.packages.box_selected'] = 'Selección';
+$lang['Main.packages.box_select'] = 'Seleccionar';
+$lang['Main.packages.box_selected'] = 'Seleccionado';
 $lang['Main.packages.box_sold_out'] = 'Agotado';
 $lang['Main.packages.box_client_limit'] = 'Límite alcanzado';
 $lang['Main.packages.button_order'] = 'Ordenar ahora';
@@ -1688,4 +1724,3 @@ $lang['SupportManagerTickets.!error.priority.valid'] = 'Selecciona una prioridad
 $lang['SupportManagerTickets.!error.contacts.valid'] = 'Al menos uno de los contactos del ticket no es válido.';
 $lang['SupportManagerTickets.!error.recipients.valid'] = 'Al menos uno de los destinatarios del ticket no es válido.';
 $lang['SupportManagerTickets.!error.recipients.duplicated'] = 'Al menos uno de los destinatarios del ticket está duplicado.';
-
