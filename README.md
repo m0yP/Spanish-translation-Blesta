@@ -6,6 +6,6 @@ Este archivo contiene varios cambios en las traducciones hechas por Blesta, ya q
 
 Se indica la ubicación del archivo original, ya que no todo se encuentra en la carpeta del idioma, así como las líneas donde empieza cada componente/plugin.
 
-La traducción en general está realizada en segunda persona del singular. Por ejemplo, "estás", "tienes", "tuyo".
+La traducción está realizada en la segunda persona del singular con tratamiento informal. Por ejemplo, "estás", "tienes", "tuyo".
 
 Trabajo en proceso.
