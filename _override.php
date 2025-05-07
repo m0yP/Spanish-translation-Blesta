@@ -2,17 +2,18 @@
 /**
  * Español México personalizado por Pecmo
  * https://www.pecmo.com.mx
+ * https://github.com/m0yP/Spanish-translation-Blesta
  * 
  * Primero van los archivos ubicados en raíz: /language/es_es/
  * 
- * Línea 0847 - Components
- * Línea 0849 -- invoice templates
+ * Línea 0848 - Components
+ * Línea 0850 -- invoice templates
  *
- * Línea 0887 - Plugins
- * Línea 0890 -- client_cards
- * Línea 0896 -- domains
- * Línea 0929 -- order
- * Línea 1507 -- support_manager 
+ * Línea 0888 - Plugins
+ * Línea 0891 -- client_cards
+ * Línea 0897 -- domains
+ * Línea 0930 -- order
+ * Línea 1508 -- support_manager 
  * 
  */
 
@@ -36,13 +37,13 @@ $lang['Accounts.!error.last4.empty_ach'] = 'Introduce los cuatro últimos dígit
 $lang['Accounts.!error.type.ach_format'] = 'Tipo no válido.';
 $lang['Accounts.!error.ach_account_id.exists'] = 'ID de cuenta no válida.';
 $lang['Accounts.!error.number.valid'] = 'El número de tarjeta indicado no es válido.';
-$lang['Accounts.!error.expiration.empty'] = 'Introduzca la fecha de vencimiento de la tarjeta de crédito/débito.';
-$lang['Accounts.!error.expiration.valid'] = 'La fecha de caducidad ya ha expirado.';
-$lang['Accounts.!error.last4.empty_cc'] = 'Introduce los cuatro últimos dígitos del número de la tarjeta de crédito/débito.';
+$lang['Accounts.!error.expiration.empty'] = 'Ingresa la fecha de vencimiento de la tarjeta de crédito/débito.';
+$lang['Accounts.!error.expiration.valid'] = 'La fecha de vencimiento ya ha pasado.';
+$lang['Accounts.!error.last4.empty_cc'] = 'Ingresa los cuatro últimos dígitos del número de la tarjeta de crédito/débito.';
 $lang['Accounts.!error.type.cc_format'] = 'El tipo de tarjeta no es válido o no se ha podido determinar.';
 $lang['Accounts.!error.cc_account_id.exists'] = 'ID de cuenta no válida.';
 $lang['Accounts.getTypes.cc'] = 'Tarjeta de crédito/débito';
-$lang['Accounts.getTypes.ach'] = 'Cámara de compensación automatizada';
+$lang['Accounts.getTypes.ach'] = 'ACH';
 $lang['Accounts.getTypes.other'] = 'Otros';
 $lang['Accounts.getAchTypes.checking'] = 'Cheque';
 $lang['Accounts.getAchTypes.savings'] = 'Ahorro';
