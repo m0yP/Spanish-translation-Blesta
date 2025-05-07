@@ -2,12 +2,17 @@
 /**
  * Español México personalizado por Pecmo
  * https://www.pecmo.com.mx
+ * 
  * Primero van los archivos ubicados en raíz: /language/es_es/
- * Línea 844 empiezan los plugins
- * Línea 847: client_cards
- * Línea 853: domains
- * Línea 886: order
- * Línea 1464: support_manager 
+ * 
+ * Línea 0847 - Components
+ * Línea 0849 -- invoice templates
+ *
+ * Línea 0887 - Plugins
+ * Línea 0890 -- client_cards
+ * Línea 0896 -- domains
+ * Línea 0929 -- order
+ * Línea 1507 -- support_manager 
  * 
  */
 
@@ -840,6 +845,7 @@ $lang['Users.!error.clients.exist'] = 'El usuario no puede ser eliminado porque 
 $lang['Users.!error.recovery_email.format'] = 'Dirección de correo electrónico de recuperación no válida.';
 
 // Components
+
 // components/invoice_templates/default_invoice/
 $lang['DefaultInvoice.name'] = 'Default';
 $lang['DefaultInvoice.page_of'] = 'Página %1$s de %2$s';
