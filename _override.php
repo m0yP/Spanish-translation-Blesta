@@ -1,8 +1,8 @@
 <?php
 /**
- * Español México personalizado para Pecmo
+ * Español México personalizado por Pecmo
  * https://www.pecmo.com.mx
- * Primero van los archivos ubicados en raíz: /portal/language
+ * Primero van los archivos ubicados en raíz: /language/es_es/
  * Línea 844 empiezan los plugins
  * Línea 847: client_cards
  * Línea 853: domains
