@@ -1,7 +1,9 @@
-# Spanish-translation-Blesta
+# Spanish translation for Blesta
 
-Este archivo contiene varios cambios en las traducciones hechas por Blesta, ya que algunas no tienen sentido o están mal traducidas.
+Blesta, a partir de la versión 5.11, permite la personalización de traducciones a través de un archivo llamado "\_override.php" que se coloca en la carpeta del idioma, en nuestro caso, la carpeta "es_es" dentro de "language" en la raíz de nuestra instalación. 
 
-Se indica la ubicación del archivo original, ya que no todo se encuentra en la carpeta /language/es_es y las líneas donde empieza cada plugin. 
+Este archivo contiene varios cambios en las traducciones hechas por Blesta, ya que algunas están mal hechas o no tienen sentido.
+
+Se indica la ubicación del archivo original, ya que no todo se encuentra en la carpeta del idioma, así como las líneas donde empieza cada componente/plugin.
 
 Trabajo en proceso.
