@@ -8,4 +8,6 @@ Se indica la ubicación del archivo original, ya que no todo se encuentra en la 
 
 La traducción está realizada en la segunda persona del singular con tratamiento informal. Por ejemplo, "estás", "tienes", "tuyo".
 
+Por el momento, solo se ha realizado la traducción del lado del cliente, por lo que es esperado que se encuentren errores o incoherencias en el lado del "admin".
+
 Trabajo en proceso.
