@@ -6,14 +6,15 @@
  * 
  * Primero van los archivos ubicados en raíz: /language/es_es/
  * 
- * Línea 0848 - Components
+ * Línea 0849 - Components
  * Línea 0850 -- invoice templates
+ * Línea 0887 -- modules/cpanel
  *
- * Línea 0888 - Plugins
- * Línea 0891 -- client_cards
- * Línea 0897 -- domains
- * Línea 0930 -- order
- * Línea 1508 -- support_manager 
+ * Línea 1034 - Plugins
+ * Línea 1037 -- client_cards
+ * Línea 1043 -- domains
+ * Línea 1076 -- order
+ * Línea 1654 -- support_manager 
  * 
  */
 
@@ -845,9 +846,9 @@ $lang['Users.!error.username.company'] = 'No estás autorizado a iniciar sesión
 $lang['Users.!error.clients.exist'] = 'El usuario no puede ser eliminado porque hay al menos un cliente asignado al usuario.';
 $lang['Users.!error.recovery_email.format'] = 'Dirección de correo electrónico de recuperación no válida.';
 
-// Components
+// Components!!!
 
-// components/invoice_templates/default_invoice/
+// components/invoice_templates/default_invoice/!!!
 $lang['DefaultInvoice.name'] = 'Default';
 $lang['DefaultInvoice.page_of'] = 'Página %1$s de %2$s';
 $lang['DefaultInvoice.terms_heading'] = 'Términos';
@@ -883,6 +884,151 @@ $lang['DefaultInvoice.payments_transaction_id'] = 'Número de transacción';
 $lang['DefaultInvoice.payments_applied_amount'] = 'Importe aplicado';
 $lang['DefaultInvoice.balance_heading'] = 'Saldo';
 
+// components/modules/cpanel!!!
+$lang['Cpanel.name'] = 'cPanel';
+$lang['Cpanel.description'] = 'cPanel y WHM han sido las plataforma de hosting líderes en la industria durante más de 20 años.';
+$lang['Cpanel.module_row'] = 'Servidor';
+$lang['Cpanel.module_row_plural'] = 'Servidores';
+$lang['Cpanel.module_group'] = 'Grupo de servidores';
+$lang['Cpanel.tab_stats'] = 'Estadísticas';
+$lang['Cpanel.tab_client_stats'] = 'Estadísticas';
+$lang['Cpanel.tab_client_actions'] = 'Acciones';
+$lang['Cpanel.add_module_row'] = 'Añadir servidor';
+$lang['Cpanel.add_module_group'] = 'Añadir grupo de servidores';
+$lang['Cpanel.manage.module_rows_title'] = 'Servidores';
+$lang['Cpanel.manage.module_groups_title'] = 'Grupos de servidores';
+$lang['Cpanel.manage.module_rows_heading.name'] = 'Etiqueta del servidor';
+$lang['Cpanel.manage.module_rows_heading.hostname'] = 'Nombre de host';
+$lang['Cpanel.manage.module_rows_heading.accounts'] = 'Cuentas';
+$lang['Cpanel.manage.module_rows_heading.options'] = 'Opciones';
+$lang['Cpanel.manage.module_groups_heading.name'] = 'Nombre del grupo';
+$lang['Cpanel.manage.module_groups_heading.servers'] = 'Listado de servidores';
+$lang['Cpanel.manage.module_groups_heading.options'] = 'Opciones';
+$lang['Cpanel.manage.module_rows.count'] = '%1$s / %2$s';
+$lang['Cpanel.manage.module_rows.count_server_group'] = '%1$s / %2$s (%3$s disponible)';
+$lang['Cpanel.manage.module_rows.edit'] = 'Editar';
+$lang['Cpanel.manage.module_groups.edit'] = 'Editar';
+$lang['Cpanel.manage.module_rows.delete'] = 'Borrar';
+$lang['Cpanel.manage.module_groups.delete'] = 'Borrar';
+$lang['Cpanel.manage.module_rows.confirm_delete'] = '¿Estás seguro que deseas eliminar este servidor?';
+$lang['Cpanel.manage.module_groups.confirm_delete'] = '¿Está seguro que deseas eliminar este grupo de servidores?';
+$lang['Cpanel.manage.module_rows_no_results'] = 'No hay servidores.';
+$lang['Cpanel.manage.module_groups_no_results'] = 'No hay grupos de servidores.';
+$lang['Cpanel.order_options.first'] = 'Primer servidor lleno';
+$lang['Cpanel.order_options.roundrobin'] = 'Distribución uniforme entre servidores';
+$lang['Cpanel.add_row.box_title'] = 'Añadir servidor cPanel';
+$lang['Cpanel.add_row.basic_title'] = 'Configuración básica';
+$lang['Cpanel.add_row.name_servers_title'] = 'DNS';
+$lang['Cpanel.add_row.notes_title'] = 'Notas';
+$lang['Cpanel.add_row.name_server_btn'] = 'Añadir DNS adicional';
+$lang['Cpanel.add_row.name_server_col'] = 'DNS';
+$lang['Cpanel.add_row.name_server_host_col'] = 'Nombre de host';
+$lang['Cpanel.add_row.name_server'] = 'Servidor de nombres %1$s';
+$lang['Cpanel.add_row.remove_name_server'] = 'Eliminar';
+$lang['Cpanel.add_row.add_btn'] = 'Añadir servidor';
+$lang['Cpanel.edit_row.box_title'] = 'Editar servidor cPanel';
+$lang['Cpanel.edit_row.basic_title'] = 'Configuración básica';
+$lang['Cpanel.edit_row.name_servers_title'] = 'DNS';
+$lang['Cpanel.edit_row.notes_title'] = 'Notas';
+$lang['Cpanel.edit_row.name_server_btn'] = 'Añadir DNS adicional';
+$lang['Cpanel.edit_row.name_server_col'] = 'DNS';
+$lang['Cpanel.edit_row.name_server_host_col'] = 'Nombre de host';
+$lang['Cpanel.edit_row.name_server'] = 'DNS %1$s';
+$lang['Cpanel.edit_row.remove_name_server'] = 'Eliminar';
+$lang['Cpanel.edit_row.add_btn'] = 'Editar servidor';
+$lang['Cpanel.row_meta.server_name'] = 'Etiqueta del servidor';
+$lang['Cpanel.row_meta.host_name'] = 'Nombre de host';
+$lang['Cpanel.row_meta.user_name'] = 'Nombre de usuario';
+$lang['Cpanel.row_meta.key'] = 'Token (o llave remota)';
+$lang['Cpanel.row_meta.use_ssl'] = 'Utilizar SSL al conectarse a la API (recomendado)';
+$lang['Cpanel.row_meta.account_limit'] = 'Límite de la cuenta';
+$lang['Cpanel.package_fields.type'] = 'Tipo de cuenta';
+$lang['Cpanel.package_fields.type_standard'] = 'Estándar';
+$lang['Cpanel.package_fields.type_reseller'] = 'Revendedor';
+$lang['Cpanel.package_fields.package'] = 'Paquete cPanel';
+$lang['Cpanel.package_fields.acl'] = 'Lista de control de acceso';
+$lang['Cpanel.package_fields.acl_default'] = 'Por defecto';
+$lang['Cpanel.package_fields.account_limit'] = 'Límite de la cuenta';
+$lang['Cpanel.package_fields.dedicated_ip'] = 'IP dedicada';
+$lang['Cpanel.package_fields.sub_domains'] = 'Activar la venta de subdominios';
+$lang['Cpanel.package_fields.sub_domains_enable'] = 'Activar';
+$lang['Cpanel.package_fields.sub_domains_disable'] = 'Desactivar';
+$lang['Cpanel.package_fields.domains_list'] = 'Lista de dominios disponibles';
+$lang['Cpanel.package_fields.dedicated_ip_no'] = 'No';
+$lang['Cpanel.package_fields.dedicated_ip_yes'] = 'Sí';
+$lang['Cpanel.service_field.domain'] = 'Dominio';
+$lang['Cpanel.service_field.sub_domain'] = 'Subdominio';
+$lang['Cpanel.service_field.username'] = 'Nombre de usuario';
+$lang['Cpanel.service_field.password'] = 'Contraseña';
+$lang['Cpanel.service_field.confirm_password'] = 'Confirmar contraseña';
+$lang['Cpanel.service_field.text_generate_password'] = 'Generar contraseña';
+$lang['Cpanel.tab_stats.info_title'] = 'Información';
+$lang['Cpanel.tab_stats.info_heading.field'] = 'Campo';
+$lang['Cpanel.tab_stats.info_heading.value'] = 'Valor';
+$lang['Cpanel.tab_stats.info.domain'] = 'Dominio';
+$lang['Cpanel.tab_stats.info.ip'] = 'Dirección IP';
+$lang['Cpanel.tab_stats.bandwidth_title'] = 'Ancho de banda';
+$lang['Cpanel.tab_stats.bandwidth_heading.used'] = 'Usado';
+$lang['Cpanel.tab_stats.bandwidth_heading.limit'] = 'Límite';
+$lang['Cpanel.tab_stats.bandwidth_value'] = '%1$s MB';
+$lang['Cpanel.tab_stats.bandwidth_unlimited'] = 'ilimitado';
+$lang['Cpanel.tab_stats.disk_title'] = 'Disco';
+$lang['Cpanel.tab_stats.disk_heading.used'] = 'Usado';
+$lang['Cpanel.tab_stats.disk_heading.limit'] = 'Límite';
+$lang['Cpanel.tab_stats.disk_value'] = '%1$s MB';
+$lang['Cpanel.tab_stats.disk_unlimited'] = 'ilimitado';
+$lang['Cpanel.tab_client_actions.change_password'] = 'Cambiar contraseña';
+$lang['Cpanel.tab_client_actions.field_cpanel_password'] = 'Contraseña';
+$lang['Cpanel.tab_client_actions.field_cpanel_confirm_password'] = 'Confirmar contraseña';
+$lang['Cpanel.tab_client_actions.field_password_submit'] = 'Actualizar contraseña';
+$lang['Cpanel.tab_client_stats.info_title'] = 'Información';
+$lang['Cpanel.tab_client_stats.info_heading.field'] = 'Campo';
+$lang['Cpanel.tab_client_stats.info_heading.value'] = 'Valor';
+$lang['Cpanel.tab_client_stats.info.domain'] = 'Dominio';
+$lang['Cpanel.tab_client_stats.info.ip'] = 'Dirección IP';
+$lang['Cpanel.tab_client_stats.bandwidth_title'] = 'Uso de ancho de banda (mes a la fecha)';
+$lang['Cpanel.tab_client_stats.disk_title'] = 'Uso del disco';
+$lang['Cpanel.tab_client_stats.usage'] = '(%1$s MB/%2$s MB)';
+$lang['Cpanel.tab_client_stats.usage_unlimited'] = '(%1$s MB/∞)';
+$lang['Cpanel.service_info.username'] = 'Nombre de usuario';
+$lang['Cpanel.service_info.password'] = 'Contraseña';
+$lang['Cpanel.service_info.server'] = 'Servidor';
+$lang['Cpanel.service_info.options'] = 'Opciones';
+$lang['Cpanel.service_info.option_login'] = 'Conectarse';
+$lang['Cpanel.package_fields.tooltip.domains_list'] = 'Introduce una lista CSV de dominios para los que se podrán aprovisionar subdominios, por ejemplo, "dominio1.com,dominio2.com,dominio3.com".';
+$lang['Cpanel.service_field.tooltip.username'] = 'Puedes dejar el nombre de usuario en blanco para generarlo automáticamente.';
+$lang['Cpanel.service_field.tooltip.password'] = 'Puedes dejar la contraseña en blanco para que se genere automáticamente.';
+$lang['Cpanel.!error.server_name_valid'] = 'Debe introducir una Etiqueta de servidor.';
+$lang['Cpanel.!error.host_name_valid'] = 'El nombre de host no es válido.';
+$lang['Cpanel.!error.user_name_valid'] = 'El nombre de usuario no es válido.';
+$lang['Cpanel.!error.remote_key_valid'] = 'El Token (o Llave Remota) parece no ser válido.';
+$lang['Cpanel.!error.remote_key_valid_connection'] = 'No se ha podido establecer la conexión con el servidor. Compruebe que el nombre de host, el nombre de usuario y el token (o clave remota) son correctos.';
+$lang['Cpanel.!error.account_limit_valid'] = 'El Límite de cuenta debe dejarse en blanco (para cuentas ilimitadas) o establecerse en algún valor entero.';
+$lang['Cpanel.!error.name_servers_valid'] = 'Uno o varios de los servidores de nombres introducidos no son válidos.';
+$lang['Cpanel.!error.name_servers_count'] = 'Debes definir al menos 2 servidores de nombres.';
+$lang['Cpanel.!error.meta[type].valid'] = 'El tipo de cuenta debe ser estándar o revendedor.';
+$lang['Cpanel.!error.meta[sub_domains].valid'] = 'Habilitar subdominios debe estar habilitado o deshabilitado.';
+$lang['Cpanel.!error.meta[domains_list].valid'] = 'Se debe establecer al menos un dominio disponible y todos ellos deben representar un nombre de host válido.';
+$lang['Cpanel.!error.meta[account_limit].valid'] = 'El límite de la cuenta debe ser un número.';
+$lang['Cpanel.!error.meta[package].empty'] = 'Se requiere un paquete cPanel.';
+$lang['Cpanel.!error.meta[dedicated_ip].format'] = 'La IP dedicada debe estar configurada en 0 o 1.';
+$lang['Cpanel.!error.api.internal'] = 'Se ha producido un error interno o el servidor no ha respondido a la solicitud.';
+$lang['Cpanel.!error.module_row.missing'] = 'Se ha producido un error interno. La fila del módulo no está disponible.';
+$lang['Cpanel.!error.cpanel_domain.format'] = 'Introduce un nombre de dominio válido, por ejemplo, dominio.com.';
+$lang['Cpanel.!error.cpanel_domain.valid'] = 'Nombre de dominio no válido.';
+$lang['Cpanel.!error.cpanel_sub_domain.format'] = 'Introduce un nombre de subdominio válido, por ejemplo "sitio".';
+$lang['Cpanel.!error.cpanel_sub_domain.availability'] = 'El subdominio proporcionado no está disponible.';
+$lang['Cpanel.!error.cpanel_username.format'] = 'El nombre de usuario sólo puede contener letras y números y no puede empezar por un número.';
+$lang['Cpanel.!error.cpanel_username.test'] = 'El nombre de usuario no puede empezar por "test".';
+$lang['Cpanel.!error.cpanel_username.length'] = 'El nombre de usuario debe tener entre 1 y 16 caracteres.';
+$lang['Cpanel.!error.cpanel_password.valid'] = 'La contraseña debe tener al menos 8 caracteres.';
+$lang['Cpanel.!error.cpanel_password.matches'] = 'La contraseña y la contraseña de confirmación no coinciden.';
+$lang['Cpanel.!error.configoptions[dedicated_ip].format'] = 'La IP dedicada debe estar configurada en 0 o 1.';
+$lang['Cpanel.tab_client_login.field_login'] = 'Conectarse';
+$lang['Cpanel.tab_client_login.field_cpanel_password'] = 'Contraseña';
+$lang['Cpanel.tab_client_login.field_cpanel_username'] = 'Nombre de usuario';
+$lang['Cpanel.tab_client_login.logintocpanel'] = 'Inicia sesión en cPanel';
+$lang['Cpanel.tab_client_login'] = 'Inicia sesión en cPanel';
 
 
 // Plugins!!!!
